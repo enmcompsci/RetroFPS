@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"E:\\UnrealProj\\RetroFPSTutorial\\Source\\RetroFPSTutorial\\RetroFPSTutorial.Build.cs",
+		"E:\\UnrealProj\\RetroFPSTutorial\\Source\\RetroFPSTutorial.Target.cs",
+		"E:\\UnrealProj\\RetroFPSTutorial\\Source\\RetroFPSTutorialEditor.Target.cs"
+	],
+	"EngineVersion": "5.0.1"
+}

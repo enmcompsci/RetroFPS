@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\RetroFPSTutorial.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\RetroFPSTutorial.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\RetroFPSTutorialEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Config\HoloLens">
+      <UniqueIdentifier>{4C8DD267-CDE7-336F-8602-F5F485D22BAB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\HoloLens\HoloLensEngine.ini">
+      <Filter>Config\HoloLens</Filter>
+    </None>
+    <Filter Include="Source\RetroFPSTutorial">
+      <UniqueIdentifier>{A04492FF-E041-35E2-B76B-02790CB726F8}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\RetroFPSTutorial\RetroFPSAttributeSet.cpp">
+      <Filter>Source\RetroFPSTutorial</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RetroFPSTutorial\RetroFPSAttributeSet.h">
+      <Filter>Source\RetroFPSTutorial</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\RetroFPSTutorial\RetroFPSCharacter.cpp">
+      <Filter>Source\RetroFPSTutorial</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RetroFPSTutorial\RetroFPSCharacter.h">
+      <Filter>Source\RetroFPSTutorial</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\RetroFPSTutorial\RetroFPSTutorial.Build.cs">
+      <Filter>Source\RetroFPSTutorial</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\RetroFPSTutorial\RetroFPSTutorial.cpp">
+      <Filter>Source\RetroFPSTutorial</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RetroFPSTutorial\RetroFPSTutorial.h">
+      <Filter>Source\RetroFPSTutorial</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\RetroFPSTutorial\RetroFPSTutorialGameModeBase.cpp">
+      <Filter>Source\RetroFPSTutorial</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RetroFPSTutorial\RetroFPSTutorialGameModeBase.h">
+      <Filter>Source\RetroFPSTutorial</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

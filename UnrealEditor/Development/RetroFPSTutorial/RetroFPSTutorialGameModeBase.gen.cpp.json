@@ -1,0 +1,19 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "e:\\unrealproj\\retrofpstutorial\\intermediate\\build\\win64\\unrealeditor\\inc\\retrofpstutorial\\retrofpstutorialgamemodebase.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\unrealproj\\retrofpstutorial\\intermediate\\build\\win64\\retrofpstutorialeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "e:\\unrealproj\\retrofpstutorial\\intermediate\\build\\win64\\unrealeditor\\development\\retrofpstutorial\\definitions.retrofpstutorial.h",
+            "e:\\unrealproj\\retrofpstutorial\\source\\retrofpstutorial\\retrofpstutorialgamemodebase.h",
+            "e:\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "e:\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "e:\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\serverstatreplicator.generated.h",
+            "e:\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\gamemodebase.generated.h",
+            "e:\\unrealproj\\retrofpstutorial\\intermediate\\build\\win64\\unrealeditor\\inc\\retrofpstutorial\\retrofpstutorialgamemodebase.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

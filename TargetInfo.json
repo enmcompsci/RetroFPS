@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "RetroFPSTutorial",
+			"Path": "E:\\UnrealProj\\RetroFPSTutorial\\Source\\RetroFPSTutorial.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "RetroFPSTutorialEditor",
+			"Path": "E:\\UnrealProj\\RetroFPSTutorial\\Source\\RetroFPSTutorialEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

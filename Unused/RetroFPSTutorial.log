@@ -1,0 +1,29 @@
+﻿  Using bundled DotNet SDK
+  Log file: C:\Users\aonor\AppData\Local\UnrealBuildTool\Log.txt
+  Building RetroFPSTutorialEditor...
+  Using Visual Studio 2019 14.29.30143 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  [Adaptive Build] Excluded from RetroFPSTutorial unity file: RetroFPSAttributeSet.cpp, RetroFPSCharacter.cpp, RetroFPSTutorial.cpp, RetroFPSTutorialGameModeBase.cpp
+  Determining max actions to execute in parallel (6 physical cores, 12 logical cores)
+    Executing up to 6 processes, one per physical core
+  Building 6 actions with 6 processes...
+  [1/6] Compile RetroFPSCharacter.gen.cpp
+E:\UnrealProj\RetroFPSTutorial\Source\RetroFPSTutorial\RetroFPSCharacter.h(9): fatal error C1083: Cannot open include file: 'AbilitySystemsInterface.h': No such file or directory
+  [2/6] Compile RetroFPSCharacter.cpp
+E:\UnrealProj\RetroFPSTutorial\Source\RetroFPSTutorial\RetroFPSCharacter.h(9): fatal error C1083: Cannot open include file: 'AbilitySystemsInterface.h': No such file or directory
+  [3/6] Compile RetroFPSAttributeSet.cpp
+E:\UnrealProj\RetroFPSTutorial\Source\RetroFPSTutorial\RetroFPSAttributeSet.cpp(6): error C2589: 'static': illegal token on right side of '::'
+E:\UnrealProj\RetroFPSTutorial\Source\RetroFPSTutorial\RetroFPSAttributeSet.cpp(6): error C2146: syntax error: missing ';' before identifier 'GetArmorAttribute'
+E:\UnrealProj\RetroFPSTutorial\Source\RetroFPSTutorial\RetroFPSAttributeSet.cpp(6): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+E:\UnrealProj\RetroFPSTutorial\Source\RetroFPSTutorial\RetroFPSAttributeSet.cpp(6): error C2440: 'return': cannot convert from 'FProperty *' to 'int'
+  E:\UnrealProj\RetroFPSTutorial\Source\RetroFPSTutorial\RetroFPSAttributeSet.cpp(6): note: There is no context in which this conversion is possible
+E:\UnrealProj\RetroFPSTutorial\Source\RetroFPSTutorial\RetroFPSAttributeSet.cpp(6): error C2617: 'GetArmorAttribute': inconsistent return statement
+  E:\UnrealProj\RetroFPSTutorial\Source\RetroFPSTutorial\RetroFPSAttributeSet.cpp(6): note: see declaration of 'GetArmorAttribute'
+E:\UnrealProj\RetroFPSTutorial\Source\RetroFPSTutorial\RetroFPSAttributeSet.cpp(6): error C2270: 'GetArmor': modifiers not allowed on nonmember functions
+E:\UnrealProj\RetroFPSTutorial\Source\RetroFPSTutorial\RetroFPSAttributeSet.cpp(6): error C2065: 'Armor': undeclared identifier
+E:\UnrealProj\RetroFPSTutorial\Source\RetroFPSTutorial\RetroFPSAttributeSet.cpp(6): error C3861: 'GetOwningAbilitySystemComponent': identifier not found
+E:\UnrealProj\RetroFPSTutorial\Source\RetroFPSTutorial\RetroFPSAttributeSet.cpp(6): error C2664: 'void UAbilitySystemComponent::SetNumericAttributeBase(const FGameplayAttribute &,float)': cannot convert argument 1 from 'int' to 'const FGameplayAttribute &'
+  E:\UnrealProj\RetroFPSTutorial\Source\RetroFPSTutorial\RetroFPSAttributeSet.cpp(6): note: Reason: cannot convert from 'int' to 'const FGameplayAttribute'
+  E:\UnrealProj\RetroFPSTutorial\Source\RetroFPSTutorial\RetroFPSAttributeSet.cpp(6): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+  E:\UE_5.0\Engine\Plugins\Runtime\GameplayAbilities\Source\GameplayAbilities\Public\AbilitySystemComponent.h(200): note: see declaration of 'UAbilitySystemComponent::SetNumericAttributeBase'
+E:\UnrealProj\RetroFPSTutorial\Source\RetroFPSTutorial\RetroFPSAttributeSet.cpp(7): error C2447: '{': missing function header (old-style formal list?)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(45,5): error MSB3073: The command "E:\UE_5.0\Engine\Build\BatchFiles\Build.bat RetroFPSTutorialEditor Win64 Development -Project="E:\UnrealProj\RetroFPSTutorial\RetroFPSTutorial.uproject" -WaitMutex -FromMsBuild" exited with code 6.

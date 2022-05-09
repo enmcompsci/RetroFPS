@@ -1,0 +1,13 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "e:\\unrealproj\\retrofpstutorial\\intermediate\\build\\win64\\unrealeditor\\inc\\retrofpstutorial\\retrofpstutorial.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\unrealproj\\retrofpstutorial\\intermediate\\build\\win64\\retrofpstutorialeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "e:\\unrealproj\\retrofpstutorial\\intermediate\\build\\win64\\unrealeditor\\development\\retrofpstutorial\\definitions.retrofpstutorial.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
